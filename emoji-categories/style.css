@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+  text-align:center;
+  color:white;
+}
+
+h1{
+  padding:20px;
+  color: black;
+}
+
+.category{
+  width:90%;
+  margin:30px auto;
+  background:rgba(66, 49, 49, 0.722);
+  border-radius:15px;
+  padding:25px;
+  
+}
+
+.category h2{
+  color:black;
+}
+
+.emoji-box{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  font-size:65px;
+}
+
+.emoji-box span{
+  transition:0.3s;
+  cursor:pointer;
+}
+
+.emoji-box span:hover{
+  transform:scale(1.4);
+}
